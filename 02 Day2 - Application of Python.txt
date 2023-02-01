@@ -1,8 +1,23 @@
 Day 2 - My Python Success Story
 
-Why I love python (And you will too...)
-Welcome to Day 2 of 100 days of code. Let me start with a story! Back in my college, I used to learn C and C++ programming in depth, used to score good marks. I created a bunch of printing, conditionals and loop program. Now what? I wanted to benefit from the same In my second year of college, I started working (I mean actually working in the industry) with the python programming language. I was not so good with it but I used to write code for a singaporean client and actually make good money without having to actually master Python. Harry then got curious and started working on his Python skills even more. I then got into web scraping and trust me I made some good easy money on Fiverr just by writing some python programs and charging on per webpage basis to my clients ( I used to automate scraping)
-I then learnt flask and got to work with Flask with a university professor abroad. Long story short, Python made a huge impact in my career.
+What is Python Programming?
+Python is an object-oriented, interpreted, and high-level programming language with active semantics. The high-level inbuilt data constructions, united with dynamic binding and dynamic typing, make it attractive for Rapid Application Development. It also makes it alluring for the usage as a glue language or scripting to link prevailing components together.
+Python language has an easy-to-learn and simple syntax that emphasizes readability. In this way, it diminishes the rate of program maintenance. Python frameworks support packages and modules, which encourages code reuse and program modularity.
+Guido van Rossum started working on Python in the 1980s, as a descendant of the ABC programming language and released it in 1991.
+The extensive standard library and the Python interpreter are obtainable in binary or source form without the charge for all key platforms and can be distributed freely. Python renders numerous useful features which make it valuable and popular from the rest of the programming languages.
 
-What can Python do for you?
-I want to show you some python programs I created which will surely inspire you to create your own versions of the same as we progress through this tutorial. Do not try to recreate them just yet if you are a beginner and just started working on Python. We will make progress gradually trust me
+Where we can use Python?
+We can use everywhere. The most common important application areas are
+    1) For developing Desktop Applications
+    2) For developing web Applications
+    3) For developing database Applications
+    4) For Network Programming
+    5) For developing games
+    6) For Data Analysis Applications
+    7) For Machine Learning
+    8) For developing Artificial Intelligence Applications
+    9) For IoT
+Note:
+     Internally Google and Youtube use Python coding.
+     NASA and Nework Stock Exchange Applications developed by Python.
+     Top Software companies like Google, Microsoft, IBM, Yahoo using Python.
