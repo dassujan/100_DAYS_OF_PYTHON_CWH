@@ -1,7 +1,7 @@
 # Create a calculator capable of performing addition, subtraction, multiplication and division operations on two numbers. Your program should format the output in a readable manner!
 
-n = 15
-m = 7
+n = int(input("Enter No: "))
+m = int(input("Enter No: "))
 ans1 = n+m
 print("Addition of",n,"and",m,"is", ans1)
 ans2 = n-m
