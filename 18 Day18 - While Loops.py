@@ -1,3 +1,4 @@
+''' Python while Loop '''
 i = int(input("Enter the number: "))
 print(i)
 while(i<=38):
@@ -6,12 +7,13 @@ while(i<=38):
 print("Done with the loop")
 
 
-# count = 5
-# while (count > 0):
-#   print(count)
-#   count = count - 1
-# else:
-#   print("I am inside else")
+''' Else with While Loop  '''
+count = 5
+while (count > 0):
+  print(count)
+  count = count - 1
+else:
+  print("I am inside else")
 
 
 # do {
