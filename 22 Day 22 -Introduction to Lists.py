@@ -1,3 +1,8 @@
+''' Lists are ordered collection of data items.
+    They store multiple items in a single variable.
+    List items are separated by commas and enclosed within square brackets [].
+    Lists are changeable meaning we can alter them after creation. '''
+
 marks = [3, 5, 6, "Harry", True, 6, 7 , 2, 32, 345, 23]
 print(marks)
 print(type(marks))
@@ -22,10 +27,12 @@ else:
 if "Ha" in "Harry":
   print("Yes")
 
+print(marks[:])
 print(marks[0:7])
 print(marks[1:9])
 print(marks[1:9:3])
 
+''' List Comprehension  '''
 lst = [i*i for i in range(10)]
 print(lst)
 lst = [i*i for i in range(10) if i%2==0]
