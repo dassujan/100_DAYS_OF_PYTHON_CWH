@@ -1,3 +1,7 @@
+# Class Variables: Class variables are defined at the class level and are shared among all instances of the class. They are defined outside of any method and are usually used to store information that is common to all instances of the class. 
+# Instance Variables: Instance variables are defined at the instance level and are unique to each instance of the class. They are defined inside the init method and are usually used to store information that is specific to each instance of the class. 
+
+
 class Employee:
     companyName = "Apple"
     noOfEmployees = 0
@@ -10,7 +14,6 @@ class Employee:
     def showDetails(self):
         print(
             f"The name of the Employee is {self.name} and the raise amount in {self.noOfEmployees} sized {self.companyName} is {self.raise_amount}")
-
 
 # Employee.showDetails(emp1)
 emp1 = Employee("Harry")
