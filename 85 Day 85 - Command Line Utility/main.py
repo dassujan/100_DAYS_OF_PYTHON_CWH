@@ -30,6 +30,6 @@ print(args.url)
 print(args.output, type(args.output))
 download_file(args.url, args.output)
 
-'''# Run in terminal:
+'''     # Run in terminal:
 # python main.py https://imagej.net/images/Cell_Colony2.jpg
-# python main.py https://imagej.net/images/Cell_Colony2.jpg -o harryt.png'''
+# python main.py https://imagej.net/images/Cell_Colony2.jpg -o harryt.png   '''
