@@ -1,3 +1,6 @@
+'''Multithreading is a technique in programming that allows multiple threads of execution to run concurrently within a single process. In Python, we can use the threading module to implement multithreading. In this tutorial, we will take a closer look at the threading module and its various functions and how they can be used in Python.'''
+
+
 import threading
 import time
 from concurrent.futures import ThreadPoolExecutor
@@ -11,9 +14,11 @@ def func(seconds):
 def main():
   time1 = time.perf_counter()
   # Normal Code
-  # func(4) 
-  # func(2)
-  # func(1)
+  func(4) 
+  func(2)
+  func(1)
+  time2 = time.perf_counter()
+  print(time2 - time1)
   
   
   # Same code using Threads
@@ -32,6 +37,7 @@ def main():
   print(time2 - time1)
 
 
+# https://docs.python.org/3/library/concurrent.futures.html
 def poolingDemo():
   with ThreadPoolExecutor() as executor:
     # future1 = executor.submit(func, 3)
